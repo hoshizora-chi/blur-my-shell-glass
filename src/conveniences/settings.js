@@ -356,7 +356,7 @@ export const Settings = class Settings {
     }
 
     _warn(str) {
-        console.warn(`[Blur my Shell > settings]     ${str}`);
+        console.warn(`[Blur my Shell Glass > settings]     ${str}`);
     }
 };
 

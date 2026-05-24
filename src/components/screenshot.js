@@ -101,10 +101,10 @@ export const ScreenshotBlur = class ScreenshotBlur {
 
     _log(str) {
         if (this.settings.DEBUG)
-            console.log(`[Blur my Shell > screenshot]   ${str}`);
+            console.log(`[Blur my Shell Glass > screenshot]   ${str}`);
     }
 
     _warn(str) {
-        console.warn(`[Blur my Shell > screenshot]   ${str}`);
+        console.warn(`[Blur my Shell Glass > screenshot]   ${str}`);
     }
 };

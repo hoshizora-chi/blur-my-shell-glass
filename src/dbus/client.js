@@ -1,8 +1,8 @@
 import Gio from 'gi://Gio';
 
 const bus_name = 'org.gnome.Shell';
-const iface_name = 'dev.aunetx.BlurMyShell';
-const obj_path = '/dev/aunetx/BlurMyShell';
+const iface_name = 'dev.hoshizorachi.BlurMyShellGlass';
+const obj_path = '/dev/hoshizorachi/BlurMyShellGlass';
 
 
 /// Call pick() from the DBus service, it will open the Inspector from

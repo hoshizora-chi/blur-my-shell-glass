@@ -260,6 +260,6 @@ export const AppFoldersBlur = class AppFoldersBlur {
 
     _log(str) {
         if (this.settings.DEBUG)
-            console.log(`[Blur my Shell > appfolders]   ${str}`);
+            console.log(`[Blur my Shell Glass > appfolders]   ${str}`);
     }
 };

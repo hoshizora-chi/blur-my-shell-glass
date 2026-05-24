@@ -243,10 +243,10 @@ export const OverviewBlur = class OverviewBlur {
 
     _log(str) {
         if (this.settings.DEBUG)
-            console.log(`[Blur my Shell > overview]     ${str}`);
+            console.log(`[Blur my Shell Glass > overview]     ${str}`);
     }
 
     _warn(str) {
-        console.warn(`[Blur my Shell > overview]     ${str}`);
+        console.warn(`[Blur my Shell Glass > overview]     ${str}`);
     }
 };

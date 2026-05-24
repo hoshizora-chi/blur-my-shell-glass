@@ -1,5 +1,5 @@
-NAME = blur-my-shell
-UUID = $(NAME)@aunetx
+NAME = blur-my-shell-glass
+UUID = $(NAME)@hoshizorachi
 VM_PATH = ~/Projects/shared/extensions
 
 .PHONY: build install pot test-shell test-prefs remove clean

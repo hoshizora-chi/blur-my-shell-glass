@@ -101,6 +101,6 @@ export const Connections = class Connections {
     }
 
     _warn(str) {
-        console.warn(`[Blur my Shell > connections]  ${str}`);
+        console.warn(`[Blur my Shell Glass > connections]  ${str}`);
     }
 };

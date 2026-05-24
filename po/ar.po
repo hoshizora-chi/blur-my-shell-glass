@@ -7,10 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-09 10:41+0200\n"
+"POT-Creation-Date: 2026-04-17 15:24+0700\n"
 "PO-Revision-Date: 2026-04-03 17:09+0000\n"
-"Last-Translator: Muhammed Al-Basha <mu7basha@users.noreply.hosted.weblate."
-"org>\n"
+"Last-Translator: Muhammed Al-Basha "
+"<mu7basha@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/blur-my-shell/"
 "blur-my-shell/ar/>\n"
 "Language: ar\n"
@@ -746,8 +746,8 @@ msgid "Reset preferences"
 msgstr "صفِّر التفضيلات"
 
 #: resources/ui/other.ui:155
-msgid "Resets preferences of Blur my Shell irreversibly."
-msgstr "يصفِّر تفضيلات «ضبِّب صدفتي» نهائيًّا."
+msgid "Resets preferences of Blur my Shell Glass irreversibly."
+msgstr ""
 
 #: resources/ui/other.ui:174
 msgid "Reset"
@@ -914,6 +914,9 @@ msgstr ""
 #: resources/ui/pipelines.ui:29
 msgid "Add Pipeline"
 msgstr ""
+
+#~ msgid "Resets preferences of Blur my Shell irreversibly."
+#~ msgstr "يصفِّر تفضيلات «ضبِّب صدفتي» نهائيًّا."
 
 #~ msgid "A list of windows to blur."
 #~ msgstr "قائمة النوافذ التي تضبَّب."

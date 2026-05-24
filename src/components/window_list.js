@@ -143,6 +143,6 @@ export const WindowListBlur = class WindowListBlur {
 
     _log(str) {
         if (this.settings.DEBUG)
-            console.log(`[Blur my Shell > window list]  ${str}`);
+            console.log(`[Blur my Shell Glass > window list]  ${str}`);
     }
 };

@@ -218,6 +218,6 @@ export const Pipeline = class Pipeline {
     }
 
     _warn(str) {
-        console.warn(`[Blur my Shell > pipeline]     ${str}`);
+        console.warn(`[Blur my Shell Glass > pipeline]     ${str}`);
     }
 };

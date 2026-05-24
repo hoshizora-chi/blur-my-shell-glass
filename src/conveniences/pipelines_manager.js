@@ -1,7 +1,7 @@
 const Signals = imports.signals;
 
 /// The `PipelinesManager` object permits to store the list of pipelines and their effects in
-/// memory. It is meant to *always* be in sync with the `org.gnome.shell.extensions.blur-my-shell`'s
+/// memory. It is meant to *always* be in sync with the `org.gnome.shell.extensions.blur-my-shell-glass`'s
 /// `pipelines` gschema. However, we do not want to re-create every effect each time this schema is
 /// changed, so the pipelines manager handles it, and dispatches the updates with targeted signals.
 ///
@@ -157,11 +157,11 @@ export class PipelinesManager {
 
     _log(str) {
         if (this.settings.DEBUG)
-            console.log(`[Blur my Shell > pipelines]    ${str}`);
+            console.log(`[Blur my Shell Glass > pipelines]    ${str}`);
     }
 
     _warn(str) {
-        console.warn(`[Blur my Shell > pipelines]    ${str}`);
+        console.warn(`[Blur my Shell Glass > pipelines]    ${str}`);
     }
 }
 

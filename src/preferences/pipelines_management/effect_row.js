@@ -221,7 +221,7 @@ export const EffectRow = GObject.registerClass({
 
     _warn(str) {
         console.warn(
-            `[Blur my Shell > effect row]   pipeline '${this.pipeline_id}',`
+            `[Blur my Shell Glass > effect row]   pipeline '${this.pipeline_id}',`
             + ` effect '${this.effect.id}': ${str}`
         );
     }

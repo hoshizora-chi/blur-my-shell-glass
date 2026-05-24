@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<interface domain="blur-my-shell@aunetx">
+<interface domain="blur-my-shell-glass@hoshizorachi">
   <template class="EffectsDialog" parent="AdwPreferencesDialog">
     <property name="title" translatable="yes">Effects</property>
     <property name="presentation-mode">ADW_DIALOG_BOTTOM_SHEET</property>

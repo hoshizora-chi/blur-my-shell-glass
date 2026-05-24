@@ -114,6 +114,6 @@ export const DummyPipeline = class DummyPipeline {
     }
 
     _warn(str) {
-        console.warn(`[Blur my Shell > dummy pip]    ${str}`);
+        console.warn(`[Blur my Shell Glass > dummy pip]    ${str}`);
     }
 };

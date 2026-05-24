@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the blur-my-shell@aunetx package.
+# This file is distributed under the same license as the blur-my-shell-glass@hoshizorachi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: blur-my-shell@aunetx\n"
+"Project-Id-Version: blur-my-shell-glass@hoshizorachi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-09 10:41+0200\n"
+"POT-Creation-Date: 2026-04-17 15:24+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -721,7 +721,7 @@ msgid "Reset preferences"
 msgstr ""
 
 #: resources/ui/other.ui:155
-msgid "Resets preferences of Blur my Shell irreversibly."
+msgid "Resets preferences of Blur my Shell Glass irreversibly."
 msgstr ""
 
 #: resources/ui/other.ui:174

@@ -85,7 +85,7 @@ export const CoverflowAltTabBlur = class CoverflowAltTabBlur {
 
     _log(str) {
         if (this.settings.DEBUG) {
-            console.log(`[Blur my Shell > coverflow alt-tab]  ${str}`);
+            console.log(`[Blur my Shell Glass > coverflow alt-tab]  ${str}`);
         }
     }
 };

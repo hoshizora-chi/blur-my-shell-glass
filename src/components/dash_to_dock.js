@@ -186,11 +186,11 @@ class DashInfos {
 
     _log(str) {
         if (this.settings.DEBUG)
-            console.log(`[Blur my Shell > dash]         ${str}`);
+            console.log(`[Blur my Shell Glass > dash]         ${str}`);
     }
 
     _warn(str) {
-        console.warn(`[Blur my Shell > dash] ${str}`);
+        console.warn(`[Blur my Shell Glass > dash] ${str}`);
     }
 }
 
@@ -412,10 +412,10 @@ export const DashBlur = class DashBlur extends Signals.EventEmitter {
 
     _log(str) {
         if (this.settings.DEBUG)
-            console.log(`[Blur my Shell > dash manager] ${str}`);
+            console.log(`[Blur my Shell Glass > dash manager] ${str}`);
     }
 
     _warn(str) {
-        console.warn(`[Blur my Shell > dash manager] ${str}`);
+        console.warn(`[Blur my Shell Glass > dash manager] ${str}`);
     }
 };

@@ -36,7 +36,7 @@ export const get_shader_source = (Shell, shader_filename, self_uri) => {
     try {
         return Shell.get_file_contents_utf8_sync(shader_path);
     } catch (e) {
-        console.warn(`[Blur my Shell > effect]       error loading shader from ${shader_path}: ${e}`);
+        console.warn(`[Blur my Shell Glass > effect]       error loading shader from ${shader_path}: ${e}`);
         return null;
     }
 };

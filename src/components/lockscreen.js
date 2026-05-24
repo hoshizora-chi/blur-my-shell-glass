@@ -84,6 +84,6 @@ export const LockscreenBlur = class LockscreenBlur {
 
     _log(str) {
         if (this.settings.DEBUG)
-            console.log(`[Blur my Shell > lockscreen]   ${str}`);
+            console.log(`[Blur my Shell Glass > lockscreen]   ${str}`);
     }
 };

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: blur-my-shell@aunetx\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-09 10:41+0200\n"
+"POT-Creation-Date: 2026-04-17 15:24+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -721,7 +721,7 @@ msgid "Reset preferences"
 msgstr ""
 
 #: resources/ui/other.ui:155
-msgid "Resets preferences of Blur my Shell irreversibly."
+msgid "Resets preferences of Blur my Shell Glass irreversibly."
 msgstr ""
 
 #: resources/ui/other.ui:174

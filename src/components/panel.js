@@ -601,10 +601,10 @@ export const PanelBlur = class PanelBlur {
 
     _log(str) {
         if (this.settings.DEBUG)
-            console.log(`[Blur my Shell > panel]        ${str}`);
+            console.log(`[Blur my Shell Glass > panel]        ${str}`);
     }
 
     _warn(str) {
-        console.warn(`[Blur my Shell > panel]        ${str}`);
+        console.warn(`[Blur my Shell Glass > panel]        ${str}`);
     }
 };

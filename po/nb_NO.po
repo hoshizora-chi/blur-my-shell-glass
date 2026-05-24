@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-09 10:41+0200\n"
+"POT-Creation-Date: 2026-04-17 15:24+0700\n"
 "PO-Revision-Date: 2025-04-06 17:36+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/blur-my-"
@@ -738,8 +738,8 @@ msgid "Reset preferences"
 msgstr "Nullstille preferanser"
 
 #: resources/ui/other.ui:155
-msgid "Resets preferences of Blur my Shell irreversibly."
-msgstr "Nullstiller preferanser av Blur my Shell irreversibelt."
+msgid "Resets preferences of Blur my Shell Glass irreversibly."
+msgstr ""
 
 #: resources/ui/other.ui:174
 msgid "Reset"
@@ -911,6 +911,9 @@ msgstr ""
 #: resources/ui/pipelines.ui:29
 msgid "Add Pipeline"
 msgstr ""
+
+#~ msgid "Resets preferences of Blur my Shell irreversibly."
+#~ msgstr "Nullstiller preferanser av Blur my Shell irreversibelt."
 
 #~ msgid "A list of windows to blur."
 #~ msgstr "En liste av vinduer å tilsløre."

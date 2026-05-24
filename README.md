@@ -18,7 +18,7 @@ To see the extension logs, you can use:
 
 ```sh
 # for debug logs (when Debug is activated in preferences)
-sudo journalctl /usr/bin/gnome-shell | grep Blur my Shell
+sudo journalctl /usr/bin/gnome-shell | grep Blur my Shell Glass
 
 # for crash logs in GNOME shell
 sudo journalctl /usr/bin/gnome-shell | grep blur-my-shell

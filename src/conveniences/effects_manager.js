@@ -85,6 +85,6 @@ export const EffectsManager = class EffectsManager {
     }
 
     _warn(str) {
-        console.warn(`[Blur my Shell > effects mng]  ${str}`);
+        console.warn(`[Blur my Shell Glass > effects mng]  ${str}`);
     }
 };

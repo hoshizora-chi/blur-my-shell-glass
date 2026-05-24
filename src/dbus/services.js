@@ -5,7 +5,7 @@ import * as LookingGlass from 'resource:///org/gnome/shell/ui/lookingGlass.js';
 
 const IFACE_XML = `
 <node>
-  <interface name="dev.aunetx.BlurMyShell">
+  <interface name="dev.hoshizorachi.BlurMyShellGlass">
     <!-- This method is called in preferences to pick a window -->
     <method name="pick" />
     <!-- When window is picking, send a signal to preferences -->
@@ -89,7 +89,7 @@ export const ApplicationsService = class ApplicationsService {
     export() {
         this.DBusImpl.export(
             Gio.DBus.session,
-            '/dev/aunetx/BlurMyShell'
+            '/dev/hoshizorachi/BlurMyShellGlass'
         );
     };
 

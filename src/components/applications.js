@@ -646,10 +646,10 @@ export const ApplicationsBlur = class ApplicationsBlur {
 
     _log(str) {
         if (this.settings.DEBUG)
-            console.log(`[Blur my Shell > applications] ${str}`);
+            console.log(`[Blur my Shell Glass > applications] ${str}`);
     }
 
     _warn(str) {
-        console.warn(`[Blur my Shell > applications] ${str}`);
+        console.warn(`[Blur my Shell Glass > applications] ${str}`);
     }
 };

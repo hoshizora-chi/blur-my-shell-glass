@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
     <!-- GENERAL -->
-    <schema id="org.gnome.shell.extensions.blur-my-shell"
-        path="/org/gnome/shell/extensions/blur-my-shell/">
+    <schema id="org.gnome.shell.extensions.blur-my-shell-glass"
+        path="/org/gnome/shell/extensions/blur-my-shell-glass/">
         <!-- SETTINGS VERSION -->
         <key type="i" name="settings-version">
             <default>1</default>
@@ -95,22 +95,22 @@
             <summary>Boolean, set to true to activate debug mode (more verbose journalctl logs)</summary>
         </key>
 
-        <child name='overview' schema='org.gnome.shell.extensions.blur-my-shell.overview'></child>
-        <child name='appfolder' schema='org.gnome.shell.extensions.blur-my-shell.appfolder'></child>
-        <child name='panel' schema='org.gnome.shell.extensions.blur-my-shell.panel'></child>
-        <child name='dash-to-dock' schema='org.gnome.shell.extensions.blur-my-shell.dash-to-dock'></child>
-        <child name='applications' schema='org.gnome.shell.extensions.blur-my-shell.applications'></child>
-        <child name='screenshot' schema='org.gnome.shell.extensions.blur-my-shell.screenshot'></child>
-        <child name='lockscreen' schema='org.gnome.shell.extensions.blur-my-shell.lockscreen'></child>
-        <child name='window-list' schema='org.gnome.shell.extensions.blur-my-shell.window-list'></child>
-        <child name='coverflow-alt-tab' schema='org.gnome.shell.extensions.blur-my-shell.coverflow-alt-tab'></child>
-        <child name='hidetopbar' schema='org.gnome.shell.extensions.blur-my-shell.hidetopbar'></child>
-        <child name='dash-to-panel' schema='org.gnome.shell.extensions.blur-my-shell.dash-to-panel'></child>
+        <child name='overview' schema='org.gnome.shell.extensions.blur-my-shell-glass.overview'></child>
+        <child name='appfolder' schema='org.gnome.shell.extensions.blur-my-shell-glass.appfolder'></child>
+        <child name='panel' schema='org.gnome.shell.extensions.blur-my-shell-glass.panel'></child>
+        <child name='dash-to-dock' schema='org.gnome.shell.extensions.blur-my-shell-glass.dash-to-dock'></child>
+        <child name='applications' schema='org.gnome.shell.extensions.blur-my-shell-glass.applications'></child>
+        <child name='screenshot' schema='org.gnome.shell.extensions.blur-my-shell-glass.screenshot'></child>
+        <child name='lockscreen' schema='org.gnome.shell.extensions.blur-my-shell-glass.lockscreen'></child>
+        <child name='window-list' schema='org.gnome.shell.extensions.blur-my-shell-glass.window-list'></child>
+        <child name='coverflow-alt-tab' schema='org.gnome.shell.extensions.blur-my-shell-glass.coverflow-alt-tab'></child>
+        <child name='hidetopbar' schema='org.gnome.shell.extensions.blur-my-shell-glass.hidetopbar'></child>
+        <child name='dash-to-panel' schema='org.gnome.shell.extensions.blur-my-shell-glass.dash-to-panel'></child>
     </schema>
 
     <!-- OVERVIEW -->
-    <schema id="org.gnome.shell.extensions.blur-my-shell.overview"
-        path="/org/gnome/shell/extensions/blur-my-shell/overview/">
+    <schema id="org.gnome.shell.extensions.blur-my-shell-glass.overview"
+        path="/org/gnome/shell/extensions/blur-my-shell-glass/overview/">
         <!-- BLUR -->
         <key type="b" name="blur">
             <default>true</default>
@@ -159,8 +159,8 @@
     </schema>
 
     <!-- APPFOLDER -->
-    <schema id="org.gnome.shell.extensions.blur-my-shell.appfolder"
-        path="/org/gnome/shell/extensions/blur-my-shell/appfolder/">
+    <schema id="org.gnome.shell.extensions.blur-my-shell-glass.appfolder"
+        path="/org/gnome/shell/extensions/blur-my-shell-glass/appfolder/">
         <!-- BLUR -->
         <key type="b" name="blur">
             <default>true</default>
@@ -204,8 +204,8 @@
     </schema>
 
     <!-- PANEL -->
-    <schema id="org.gnome.shell.extensions.blur-my-shell.panel"
-        path="/org/gnome/shell/extensions/blur-my-shell/panel/">
+    <schema id="org.gnome.shell.extensions.blur-my-shell-glass.panel"
+        path="/org/gnome/shell/extensions/blur-my-shell-glass/panel/">
         <!-- BLUR -->
         <key type="b" name="blur">
             <default>true</default>
@@ -284,8 +284,8 @@
     </schema>
 
     <!-- DASH TO DOCK -->
-    <schema id="org.gnome.shell.extensions.blur-my-shell.dash-to-dock"
-        path="/org/gnome/shell/extensions/blur-my-shell/dash-to-dock/">
+    <schema id="org.gnome.shell.extensions.blur-my-shell-glass.dash-to-dock"
+        path="/org/gnome/shell/extensions/blur-my-shell-glass/dash-to-dock/">
         <!-- BLUR -->
         <key type="b" name="blur">
             <default>true</default>
@@ -354,8 +354,8 @@
     </schema>
 
     <!-- APPLICATIONS -->
-    <schema id="org.gnome.shell.extensions.blur-my-shell.applications"
-        path="/org/gnome/shell/extensions/blur-my-shell/applications/">
+    <schema id="org.gnome.shell.extensions.blur-my-shell-glass.applications"
+        path="/org/gnome/shell/extensions/blur-my-shell-glass/applications/">
         <!-- BLUR -->
         <key type="b" name="blur">
             <default>false</default>
@@ -444,8 +444,8 @@
     </schema>
 
     <!-- SCREENSHOT -->
-    <schema id="org.gnome.shell.extensions.blur-my-shell.screenshot"
-        path="/org/gnome/shell/extensions/blur-my-shell/screenshot/">
+    <schema id="org.gnome.shell.extensions.blur-my-shell-glass.screenshot"
+        path="/org/gnome/shell/extensions/blur-my-shell-glass/screenshot/">
         <!-- BLUR -->
         <key type="b" name="blur">
             <default>true</default>
@@ -489,8 +489,8 @@
     </schema>
 
     <!-- LOCKSCREEN -->
-    <schema id="org.gnome.shell.extensions.blur-my-shell.lockscreen"
-        path="/org/gnome/shell/extensions/blur-my-shell/lockscreen/">
+    <schema id="org.gnome.shell.extensions.blur-my-shell-glass.lockscreen"
+        path="/org/gnome/shell/extensions/blur-my-shell-glass/lockscreen/">
         <!-- BLUR -->
         <key type="b" name="blur">
             <default>true</default>
@@ -534,8 +534,8 @@
     </schema>
 
     <!-- WINDOW LIST -->
-    <schema id="org.gnome.shell.extensions.blur-my-shell.window-list"
-        path="/org/gnome/shell/extensions/blur-my-shell/window-list/">
+    <schema id="org.gnome.shell.extensions.blur-my-shell-glass.window-list"
+        path="/org/gnome/shell/extensions/blur-my-shell-glass/window-list/">
         <!-- BLUR -->
         <key type="b" name="blur">
             <default>true</default>
@@ -579,8 +579,8 @@
     </schema>
 
     <!-- COVERFLOW ALT-TAB -->
-    <schema id="org.gnome.shell.extensions.blur-my-shell.coverflow-alt-tab"
-        path="/org/gnome/shell/extensions/blur-my-shell/coverflow-alt-tab/">
+    <schema id="org.gnome.shell.extensions.blur-my-shell-glass.coverflow-alt-tab"
+        path="/org/gnome/shell/extensions/blur-my-shell-glass/coverflow-alt-tab/">
         <!-- BLUR -->
         <key type="b" name="blur">
             <default>true</default>
@@ -594,8 +594,8 @@
     </schema>
 
     <!-- HIDETOPBAR -->
-    <schema id="org.gnome.shell.extensions.blur-my-shell.hidetopbar"
-        path="/org/gnome/shell/extensions/blur-my-shell/hidetopbar/">
+    <schema id="org.gnome.shell.extensions.blur-my-shell-glass.hidetopbar"
+        path="/org/gnome/shell/extensions/blur-my-shell-glass/hidetopbar/">
         <!-- COMPATIBILITY -->
         <key type="b" name="compatibility">
             <default>false</default>
@@ -604,8 +604,8 @@
     </schema>
 
     <!-- DASH TO PANEL -->
-    <schema id="org.gnome.shell.extensions.blur-my-shell.dash-to-panel"
-        path="/org/gnome/shell/extensions/blur-my-shell/dash-to-panel/">
+    <schema id="org.gnome.shell.extensions.blur-my-shell-glass.dash-to-panel"
+        path="/org/gnome/shell/extensions/blur-my-shell-glass/dash-to-panel/">
         <!-- COMPATIBILITY -->
         <key type="b" name="blur-original-panel">
             <default>true</default>

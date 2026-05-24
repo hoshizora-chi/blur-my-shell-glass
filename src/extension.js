@@ -634,6 +634,6 @@ export default class BlurMyShell extends Extension {
 
     _log(str) {
         if (this._settings.DEBUG)
-            console.log(`[Blur my Shell > extension]    ${str}`);
+            console.log(`[Blur my Shell Glass > extension]    ${str}`);
     }
 }

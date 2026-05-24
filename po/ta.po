@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: blur-my-shell@aunetx\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-09 10:41+0200\n"
+"POT-Creation-Date: 2026-04-17 15:24+0700\n"
 "PO-Revision-Date: 2025-04-28 03:02+0000\n"
 "Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/blur-my-shell/blur-"
@@ -754,8 +754,8 @@ msgid "Reset preferences"
 msgstr "விருப்பங்களை மீட்டமைக்கவும்"
 
 #: resources/ui/other.ui:155
-msgid "Resets preferences of Blur my Shell irreversibly."
-msgstr "மங்கலான எனது ஷெல்லின் விருப்பங்களை மீளமுடியாமல் மீட்டமைக்கிறது."
+msgid "Resets preferences of Blur my Shell Glass irreversibly."
+msgstr ""
 
 #: resources/ui/other.ui:174
 msgid "Reset"
@@ -929,6 +929,9 @@ msgstr ""
 #: resources/ui/pipelines.ui:29
 msgid "Add Pipeline"
 msgstr "பைப்லைனைச் சேர்க்கவும்"
+
+#~ msgid "Resets preferences of Blur my Shell irreversibly."
+#~ msgstr "மங்கலான எனது ஷெல்லின் விருப்பங்களை மீளமுடியாமல் மீட்டமைக்கிறது."
 
 #~ msgid "A list of windows to blur."
 #~ msgstr "மங்கலாக்க வேண்டிய சாளரங்களின் பட்டியல்."
