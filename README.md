@@ -6,7 +6,7 @@ To install the extension from source:
 
 ```sh
 git clone https://github.com/hoshizora-chi/blur-my-shell-glass
-cd blur-my-shell
+cd blur-my-shell-glass
 make install
 ```
 
